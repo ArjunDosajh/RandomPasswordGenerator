@@ -18,6 +18,7 @@ h1 {
 
 .passes {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -50,9 +51,8 @@ h2 {
 
 #output1, #output2 {
     visibility: hidden;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
